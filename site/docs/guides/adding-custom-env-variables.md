@@ -9,7 +9,7 @@ Starting version `6.0.0` `@wpackio/scripts` can handle custom env variables from
 - `.env` file at the root of your project.
 - Anything in `process.env` available during `yarn start` or `yarn build`.
 
-All variables starting with `WPAKCIO_` will be available in your application
+All variables starting with `WPACKIO_` will be available in your application
 code without the `WPACKIO_` prefix. So if you have `WPACKIO_SECRET_KEY` in your
 env, then you can access it from your app by `process.env.SECRET_KEY`.
 
